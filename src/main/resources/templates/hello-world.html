@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Hello World Spring Boot page</title>
+	
+	<!-- Reference CSS file -->
+	<link rel = "stylesheet" th:href = "@{/css/demo.css}"/>
+</head>
+
+<body>
+<p th:text = "'The new time on server is '+ ${serverTime}" class = "funny"></p>
+</body>
+</html>
